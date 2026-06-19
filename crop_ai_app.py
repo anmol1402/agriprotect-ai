@@ -75,7 +75,7 @@ if st.button("🚀 Analyze with Google Gemini (Vision & RAG Enabled)"):
         with st.spinner("Analyzing symptoms & retrieving local organic guidelines using Gemini..."):
             try:
                 # Setup Gemini Model (Gemini 1.5 Flash is incredibly fast and multimodal)
-                model = genai.GenerativeModel("gemini-1.5-flash")
+                model = genai.GenerativeModel("gemini-2.5-flash")
                 
                 # Dynamic Prompt forcing SDG 12 and organic focus
                 prompt = f"""
