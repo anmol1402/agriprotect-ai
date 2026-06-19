@@ -1,0 +1,8 @@
+streamlit
+google-generativeai
+Pillow
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+streamlit-mic-recorder
